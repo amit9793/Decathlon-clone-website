@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        main{
+            display: flex;
+            flex-direction: row;
+            background-color: rgb(255, 251, 251);
+            margin-left: 100px;
+            margin-right: 100px;
+            grid-column-gap: 20px;
+
+        }
+        left{
+            
+            width: 50%;
+            height: 500px;
+            
+            
+            background-color: rgb(250, 250, 249);
+        }
+        #delivering{
+            background-color: rgb(250, 252, 252);
+            height: 40px;
+            padding-left: 10px;
+            padding-top: 20px;
+            border-radius: 8px;
+        }
+        #your{
+            font-weight: bold;
+            padding-top: 20px;
+        }
+        #addproduct{
+            padding-top: 10px;
+        }
+        qty{
+            display: grid;
+            grid-template-columns: 30% 40% 30%;
+            padding-top: 30px;
+        }
+        #mid{
+            font-size:15px;
+        }
+        #delete{
+            height: 30px;
+            width: 50px;
+            margin-left: 60px;
+        }
+        #totalprice{
+            font-weight: bold;
+            font-size: 30px;
+            margin-top: 60px;
+            margin-left: 50px;
+        }
+        combo{
+            display: grid;
+            grid-template-columns: 50px 50px 50px 50px;
+            grid-template-rows: 50px;
+            grid-column-gap: 10px;
+            background-color: rgb(248, 250, 250);
+            text-align: center;
+        }
+        #qty{
+            height: 30px;
+            
+            text-align: center;
+            width: 50px;
+            font-size: 20px;
+            padding-top: 10px;
+        
+        }
+        button{
+            border-radius: 10px;
+        }
+        #display{
+            text-align: center;
+            font-weight: bold;
+            padding-top: 10px;
+            font-size: 25px;
+
+        }
+        ordersummery{
+            display: grid;
+            grid-template-columns: 200px 100px;
+            grid-template-rows: 50px 50px 50px 50px;
+        }
+        #order{
+            font-weight: bold;
+            font-size: 20px;
+            padding-top: 10px;
+        }
+        #tp{
+            padding-top: 10px;
+        }
+        #price{
+            padding-top: 10px;
+        }
+        .total{
+            font-weight: bold;
+            font-size: 20px;
+
+        }
+        #finalcheckout{
+            height: 40PX;
+            background-color: yellow;
+            text-align: center;
+            padding-top: 20PX;
+            border-radius: 10px;
+            font-weight: bold;
+            width: 250px;
+        }
+
+    </style>
+    <body>
+        <main>
+            <left>
+                <div id="delivering">Delivering </div>
+                <div id="your">Your are eligible for</div>
+                <div id="addproduct">Add products worth ₹901 more to your cart and get free home delivery</div>
+                <qty>
+                    <div><img src="https://contents.mediadecathlon.com/p1420005/4067736fa30c86fd7c12291607df5399/p1420005.jpg?f=150x150"
+                        width="150px" height="150px"></div>
+                    <div id="mid">Men's Urban Walking Shoes PW 100 - grey
+                        <pre></pre>
+                       <div>4.43 Ratings</div> 
+                        Size: UK 5.5 - EU 39
+                    
+                        <combo>
+                            <div id="qty">Qty</div>
+                            <button onclick="decrese()" id="decrese">-</button>
+                            <div id="display">1</div>
+                            <button onclick="increse()">+</button>
+                        </combo>
+                    </div>
+
+                        
+                        
+                        <div>
+                    <button onclick="delete()" id="delete">delete</button>
+                    <div id="totalprice">₹ 599</div>
+                </div>
+                </qty>
+
+
+            </left>
+        <right>
+            <div id="order" >Order Summery</div>
+            <ordersummery>
+             
+             <div id="tp">Total products(Inc GST)</div>
+             <div id="price">599</div>
+             <div>Estimated Delivery</div>
+             <div>129</div>
+             <div class="total">Total</div>
+             <div class="total">728</div>
+            </ordersummery>
+
+            <div
+             id="finalcheckout"> PROCEED TO CHECKOUT
+
+            </div>
+         </right>
+
+
+        </main>
+
+    </body>
+</html>

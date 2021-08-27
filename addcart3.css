@@ -1,0 +1,41 @@
+main{
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    width: 450px;
+    background-color: burlywood;
+    
+    border: 2px solid rgb(28, 13, 245);
+    
+}
+#simage{
+    background-color: aqua;
+    width: 100px;
+}
+#detail{
+    background-color: rgb(243, 239, 242);
+    width: 175px;
+    font-size: 20px;
+}
+#shoping                                                                {
+    background-color: rgb(171, 224, 47);
+    width: 175px;
+}
+#added{
+    font-size: 19px;
+    
+}
+#gotocart{
+    margin-top: 10px;
+    margin-left: 30px;
+    height: 30px;
+    width: 80%;
+    background-color: rgb(10, 130, 243);
+    color: whitesmoke;
+}
+#continue{
+    margin-top: 30px;
+    margin-left: 10px;
+    height: 40px;
+    
+}

@@ -1,0 +1,57 @@
+.slider-wrapper{
+    width: 80%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    height:300px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.slides{
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.slides img{
+    height: 100%;
+
+}
+
+/* Dots Style */
+.slick-dots li button:before {
+    font-family: slick;
+    font-size: 14px;
+    line-height: 20px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: 0.25;
+    color: rgb(100, 98, 98);
+
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: rgb(100, 98, 98);
+}
+  .slick-next, .slick-prev{
+    background-color: rgb(255, 0, 55);
+    color: #000;
+  }
+  .slick-next:hover{
+    color: #009688;
+    background-color: rgb(36, 34, 34);
+  } 
+  .slick-prev:hover{
+    color: #009688;
+    background-color: rgb(36, 34, 34);
+  }
+

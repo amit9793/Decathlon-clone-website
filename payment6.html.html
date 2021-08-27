@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <link rel="stylesheet" href="./payment.css">
+    </head>
+    <body>
+        <main>
+
+            <h2 id="credit">CREDIT/DEBIT/ATM CARD</h2>
+            <input type="text"id="cardnumber" placeholder="Enter Card Number"/>
+            <h5 id="valid">valid thru</h5>
+            <validcvv>
+                <input id="month" placeholder="MM">
+                <input id="year" placeholder="YY">
+                <input id="cvv" placeholder="CVV">
+
+            </validcvv>
+
+            <a style="text-decoration:none" href="/orderplaced7.html.html">
+                <button onclick="function1()" id="pay">PAY</button>
+            </a>
+            <h4 id="output"></h4>
+    </main>
+    </body>
+</html>
+<script>
+    
+var link = document.getElementById("pay");
+
+var p = document.getElementById("cardnumber");
+var mon = document.getElementById("month");
+var yer = document.getElementById("year");
+var vv = document.getElementById("CVV");
+
+var para = document.getElementById("output");
+
+function stopClick(e){
+    if(p.value.length !== 16 || mon.value.length !==2 || yer.value.length !==2 || vv.value.length !==3){
+     e.preventDefault();
+     para.textContent = "SOMETHING WENT WRONG"
+    }
+   }
+   
+
+
+
+link.addEventListener('click',stopClick);
+
+
+</script>

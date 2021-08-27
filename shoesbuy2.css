@@ -1,0 +1,91 @@
+main{
+
+    display: flex;
+    flex-direction:row;
+}
+#box1{
+    height: 500px;
+    width:50%;
+    background-color: rgb(235, 231, 240);
+}
+left{
+    height: 500px;
+    width:50%;
+    background-color: white;
+    margin-left: 40px;
+}
+#newfeel{
+    font-size: 15px;
+}
+#Men{
+    font-weight: bold;
+    margin-top: -13px;
+    
+}
+#referance{
+    margin-top: -15px;
+
+}
+#pice{
+    color: rgb(12, 1, 1);
+    font-weight: bold;
+    background-color: white;
+    
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Roboto Condensed", sans-serif !important;
+    color: rgb(18, 41, 250);
+    
+}
+SPAM{
+    background-color: white;
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: -5px;
+    font-family: "Roboto Condensed", sans-serif !important;
+    color: black;
+}
+#sizeinc{
+    font-weight: bold;
+}
+select{
+    border: rgb(48, 46, 46);
+    font-size: 15px;
+    height: 50px;
+    width: 300px;
+    background-color: rgb(224, 217, 217);
+    border-radius: 5px;
+    
+}
+
+#cart{
+    height:60px;
+    width: 300px;
+    font-weight: bold;
+    background-color: yellow;
+    border: 10px;
+    
+   
+    
+}
+#empty{
+    height: 20px;
+}
+#currently{
+    margin-top: 8px;
+    font-family: "Roboto Condensed", sans-serif !important;
+    color: rgb(92, 86, 86);
+}
+#pincode{
+    height: 30px;
+    width: 600px;
+    background-color: blanchedalmond;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+#home{
+    background-color: rgb(244, 244, 248);
+    height: 70px;
+    
+    text-align: left;
+}
